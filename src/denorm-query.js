@@ -1,12 +1,4 @@
 module.exports = `query ProductTreeView {
-    productsAtTx {
-      id
-      txReq
-      key
-      name
-      description
-      retired
-    }
     productTrees {
       id
     }
@@ -16,14 +8,6 @@ module.exports = `query ProductTreeView {
   fragment ProductTreeTree_query on Query {
     productTrees {
       ...ProductTreeTreeProductTree
-    }
-    productsAtTx {
-      id
-      txReq
-      key
-      name
-      description
-      retired
     }
   }
   fragment ProductTreeTreeProductTree on ProductTree {
