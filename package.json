@@ -8,6 +8,6 @@
     "graphql-norm": "^1.3.5"
   },
   "scripts": {
-    "start": "node src/index.js"
+    "denorm": "node src/denorm.js"
   }
 }
